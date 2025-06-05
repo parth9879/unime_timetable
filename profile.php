@@ -252,19 +252,19 @@ $subjects = $courseSubjects[$student['course']] ?? [];
             border: 1px solid rgba(255, 255, 255, 0.3);
         }
 
-     .action-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    justify-items: center;
-    align-items: stretch;
-}
-            .action-card a {
-    text-decoration: none;
-    color: inherit;
-     height: 100%;
-    min-height: 200px;
-}
+        .action-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        justify-items: center;
+        align-items: stretch;
+        }
+        .action-card a {
+        text-decoration: none;
+        color: inherit;
+        height: 100%;
+        min-height: 200px;
+        }
 
 
 
