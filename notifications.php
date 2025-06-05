@@ -53,7 +53,7 @@ $filter = isset($_GET['course']) ? $_GET['course'] : null;
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202022-09-13%20at%2015.07.39-vnkFJYtfWYjyNwl6VvZ7OpEMss7m1j.png');
+            background-image: url('background.php');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
