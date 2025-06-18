@@ -11,7 +11,7 @@ $course = $_POST['course'];
 $year = $_POST['year'] ?? null;
 $title = "University Notification";
 $message = $_POST['notification'];
-$icon = "bullhorn"; // You can later make this dynamic
+$icon = "bullhorn"; 
 $created = date("Y-m-d H:i:s");
 
 $sql = "INSERT INTO notifications (course, year, title, message, icon_type, admin_id, created_at, posted_at)
